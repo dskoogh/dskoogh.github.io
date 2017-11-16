@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background: #dddddd;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background: rgb(46, 41, 37);
+    color: #f0eed4;    
+    position: fixed;
+    z-index: 99;
+    border: 1px solid #f0eed4;
+}
+
+.header h1 {
+    padding-top: 12px;
+    padding-left: 10px;
+    font-size: 30px;
+    float: left;
+    font-family: 'Spectral SC', serif;
+    font-weight: 300;    
+}
+
+.header img {
+    padding-top: 7px;
+    padding-left: 30px;
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+
+.navbar li {
+    float: right;
+    padding: 20px;
+    padding-right: 5px;
+    display: inline;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbar {
+    padding-right: 20px;
+}
+
+.link:hover {
+    color: #9c9b89;
+}
+
+.link {
+    font-family: 'Spectral SC', serif;    
+    color: #f0eed4;    
+    text-decoration: none;
+}
+
+.showcase {
+    width: 100%;
+    height: 700px;
+    color: #f0eed4;
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.showcase h1 {
+    text-align: center;
+    font-family: 'Spectral SC', serif;
+    font-weight: 300;
+    padding-top: 280px;
+    font-size: 60px;
+    padding-bottom: 0px;
+}
+
+.showcase p {
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+    height: 50px;
+}
+
+.subscribe {
+    padding-top: 15px;
+    height: 90px;
+    background: rgb(46, 41, 37);
+    font-family: 'Spectral SC', serif;
+    font-weight: 300;
+    color: #f0eed4;
+}
+
+button {
+    font-family: 'Spectral SC', serif;    
+    width: 80px;
+    height: 30px;
+    background-color: #aa9478;
+    border: none;
+    outline: none;
+}
+
+input {
+    font-family: 'Spectral SC', serif;    
+    width: 300px;
+    height: 30px;
+    background-color: #f0eed4;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.about {
+    background-image: url("https://static.pexels.com/photos/567449/pexels-photo-567449.jpeg");
+    /* background-image: url("https://static.pexels.com/photos/157966/person-young-man-beard-emotions-157966.jpeg"); */
+    background-size: cover;
+    background-position: 40% 53%;
+    color: #f0eed4;
+    height: 300px;
+}
+
+.contact {
+    background-image: url("https://static.pexels.com/photos/9165/hand-top-white-old.jpg");
+    background-size: cover;
+    background-position: 40% 35%;
+    height: 300px;
+    background-color: #40596A;
+    color: #f0eed4;
+}
+
+.sets {
+    background-image: url("https://static.pexels.com/photos/163347/war-desert-guns-gunshow-163347.jpeg");
+    background-size: cover;
+    background-position: 40% 20%;
+    height: 300px;
+    background-color: #3A4660;
+    color: #f0eed4;
+}
+
+h3 {
+    font-family: 'Spectral SC', serif;
+    text-decoration: line-through;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 80px;    
+}
+
+p {
+    margin: auto;
+    max-width: 60%;
+    font-family: 'Indie Flower', cursive;
+}
+
+footer {
+    height: 80px;
+    background-color: rgb(46, 41, 37);
+}
+
+footer p {
+    float: right;
+    color: #f0eed4;
+    padding-top: 25px;
+    padding-right: 120px;
+    font-family: 'Spectral SC', serif;
+    font-weight: 300;    
+}
+
+footer p:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 650px) {
+    .header {
+        padding: 0px;
+        text-align: center;
+        height: 180px;
+    }
+
+    .header h1 {
+        align-content: center;
+    }
+
+    .navbar li {
+        padding: 0px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .logo {
+        padding-top: 10px;
+        margin: auto;
+        width: 100%;
+    }
+    
+    .showcase {
+        height: 600px;
+    }
+
+    .showcase h1 {
+        margin: auto;
+        font-size: 30px;
+        padding-top: 320px;
+        line-height: 1;
+        padding-bottom: 5px;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .contact {
+        margin: auto;
+        width: 100%;
+    }
+
+    .sets {
+        background-position: cover;
+        height: 300px;
+        width: 100%;
+    }
+
+    footer {
+        margin: auto;
+    }
+}
