@@ -66,7 +66,7 @@ body {
     color: #f0eed4;
     background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: center;
     background-size: cover;
 }
@@ -96,6 +96,8 @@ img {
 }
 
 .subscribe {
+    border-bottom: 1px solid #f0eed4;
+    border-top: 1px solid #f0eed4;
     padding-top: 15px;
     height: 90px;
     background: rgb(46, 41, 37);
@@ -124,28 +126,36 @@ input {
 }
 
 .about {
-    background-image: url("https://static.pexels.com/photos/567449/pexels-photo-567449.jpeg");
-    /* background-image: url("https://static.pexels.com/photos/157966/person-young-man-beard-emotions-157966.jpeg"); */
+    border-bottom: 1px solid #f0eed4;    
+    background-image: url("https://static.pexels.com/photos/163347/war-desert-guns-gunshow-163347.jpeg");
+    /* background-image: url("https://static.pexels.com/photos/567449/pexels-photo-567449.jpeg");
+    background-image: url("https://static.pexels.com/photos/157966/person-young-man-beard-emotions-157966.jpeg"); */
     background-size: cover;
-    background-position: 40% 53%;
+    background-position: 40% 20%;
     color: #f0eed4;
-    height: 300px;
+    height: 400px;
 }
 
 .contact {
-    background-image: url("https://static.pexels.com/photos/9165/hand-top-white-old.jpg");
+    border-bottom: 1px solid #f0eed4;
+    background-image: url("https://static.pexels.com/photos/484/sound-speaker-radio-microphone.jpg");
+    /*background-image: url("https://static.pexels.com/photos/9165/hand-top-white-old.jpg");*/
     background-size: cover;
     background-position: 40% 35%;
-    height: 300px;
+    height: 400px;
     background-color: #40596A;
     color: #f0eed4;
 }
 
 .sets {
-    background-image: url("https://static.pexels.com/photos/163347/war-desert-guns-gunshow-163347.jpeg");
+    border-bottom: 1px solid #f0eed4;
+    /*background-image: url("https://static.pexels.com/photos/163490/war-desert-guns-gunshow-163490.jpeg");
+    background-image: url("https://static.pexels.com/photos/670003/pexels-photo-670003.jpeg");
+    background-image: url("https://static.pexels.com/photos/163347/war-desert-guns-gunshow-163347.jpeg");*/
+    background-image: url("https://static.pexels.com/photos/280002/pexels-photo-280002.jpeg");
     background-size: cover;
     background-position: 40% 20%;
-    height: 300px;
+    height: 400px;
     background-color: #3A4660;
     color: #f0eed4;
 }

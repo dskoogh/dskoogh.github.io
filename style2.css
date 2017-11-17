@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    height: 120px;
+    background-color: rgb(46, 41, 37);
+}
+
+.header img {
+    padding-top: 10px;
+    width: 40px;
+    height: auto;
+}
+
+.logo h1 {
+    font-size: 30px;
+}
+
+.logo {
+    width: 100%;
+    color: #f0eed4;
+    height: 50px;
+}
+
+.navbar {
+    width: 100%;
+    padding-top: 42px;
+}
+
+.navbar ul {
+    margin:0;
+    width:600px;
+    height:60px;
+    list-style:none!important;
+}
+
+.link {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    color: #f0eed4;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left;
+}
+
+.showcase {
+    text-align: center;
+    height: 180px;
+    padding-top: 100px;
+    color: #f0eed4;    
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.subscribe {
+    font-family: 'Spectral SC', serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(46, 41, 37);
+    height: 80px;
+    color: #f0eed4;
+}
+
+input {
+    font-family: 'Spectral SC', serif;    
+    width: 180px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #aa9478;    
+}
+
+.submit {
+    font-family: 'Spectral SC', serif;    
+    width: 60px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #aa9478;
+    color: #f0eed4;
+}
