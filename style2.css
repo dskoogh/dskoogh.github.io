@@ -70,7 +70,8 @@
 }
 
 input {
-    font-family: 'Spectral SC', serif;    
+    font-family: 'Spectral SC', serif;
+    padding-bottom: 5px;    
     width: 180px;
     height: 30px;
     border: none;
